@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "reactnative",
+    "name": "ATLAS",
     "slug": "reactnative",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/ATLAS.png",
     "scheme": "reactnative",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
