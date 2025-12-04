@@ -1,50 +1,77 @@
-# Welcome to your Expo app 👋
+# ATLAS (ATM Location Tracking & Search)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📌 Nama Produk
 
-## Get started
+ATLAS (ATM Location Tracking & Search)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📝 Deskripsi Produk
 
-2. Start the app
+ATLAS adalah aplikasi mobile berbasis React Native dan Expo yang digunakan untuk melakukan pendataan, pemantauan, dan pencarian lokasi ATM secara real-time. Aplikasi ini memungkinkan pengguna untuk:
 
-   ```bash
-   npx expo start
-   ```
+* Menambahkan data ATM baru lengkap dengan koordinat lokasi dan akurasi GPS.
+* Melihat daftar ATM yang tersimpan dalam database.
+* Menampilkan lokasi ATM dalam bentuk peta interaktif.
+* Melakukan navigasi langsung ke lokasi ATM menggunakan Google Maps.
+* Melakukan pencarian ATM berdasarkan nama bank.
 
-In the output, you'll find options to open the app in a
+Aplikasi ini terhubung langsung dengan Firebase Realtime Database sehingga seluruh data dapat diperbarui secara langsung (real-time).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🧩 Komponen Pembangun Produk
 
-## Get a fresh project
+Aplikasi ATLAS dikembangkan menggunakan beberapa teknologi utama berikut:
 
-When you're ready, run:
+* **React Native** → Framework utama pengembangan aplikasi mobile.
+* **Expo** → Tools untuk mempermudah proses pengembangan dan pengujian aplikasi.
+* **Expo Router** → Mengatur sistem navigasi antar halaman.
+* **Firebase Realtime Database** → Menyimpan dan mengambil data ATM secara real-time.
+* **Expo Location** → Mengambil koordinat GPS pengguna.
+* **React Native Maps** → Menampilkan peta dan marker lokasi ATM.
+* **Vector Icons (MaterialIcons & FontAwesome)** → Menyediakan ikon antarmuka.
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📊 Sumber Data
 
-## Learn more
+Sumber data pada aplikasi ini berasal dari:
 
-To learn more about developing your project with Expo, look at the following resources:
+* **Input langsung pengguna melalui Form Input ATM** (data bank, jenis ATM, status ATM, koordinat, dan akurasi).
+* **Firebase Realtime Database** sebagai penyimpanan utama seluruh data ATM.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 📷 Tangkapan Layar Komponen Penting Produk
 
-Join our community of developers creating universal apps.
+Berikut adalah komponen utama yang terdapat dalam aplikasi ATLAS (silakan lampirkan tangkapan layar pada folder repository):
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. **Halaman Home / Dashboard**
+
+   * Menampilkan informasi umum aplikasi, statistik ATM, dan fitur unggulan.
+
+2. **Halaman Peta (Maps View)**
+
+   * Menampilkan seluruh lokasi ATM dalam bentuk marker pada peta.
+
+3. **Halaman Form Input ATM**
+
+   * Digunakan untuk menambahkan data ATM baru ke dalam sistem.
+
+4. **Halaman Daftar Lokasi ATM**
+
+   * Menampilkan daftar seluruh ATM, dilengkapi fitur navigasi, edit, hapus, dan favorit.
+
+5. **Halaman Explore / Informasi ATM**
+
+   * Menampilkan data ATM secara ringkas dengan fitur pencarian dan filter status.
+<img width="180"  alt="image" src="https://github.com/user-attachments/assets/ecfbf58a-d4f0-45cc-bb41-9cbcb209b8a6" />
+<img width="180" alt="image" src="https://github.com/user-attachments/assets/40ea746a-2b47-41c0-bd93-bf9567627572" />
+<img width="180" alt="image" src="https://github.com/user-attachments/assets/6eb9151c-78ae-4d7b-a176-4b666dcd8e3c" />
+<img width="180" alt="image" src="https://github.com/user-attachments/assets/fd00ed8b-e5ba-454f-bf1f-9dc7387f9bdb" />
+<img width="180" alt="image" src="https://github.com/user-attachments/assets/d7193a0c-b4b1-45f4-990b-a79355807fdc" />
+
+---
+
+✅ *Dokumen README ini disusun untuk memenuhi kebutuhan dokumentasi pada repository GitHub aplikasi ATLAS.*
